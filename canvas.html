@@ -1,0 +1,27 @@
+<!--
+deneme-3
+canvas moveTo ve lineTo
+-->
+<!doctype html>
+<html>
+    <head>
+        <title>Canvas Deneme</title>
+    </head>
+    <body>
+        <canvas id="canvasdeneme" width="600" height="600" style="border: 10px solid"> </canvas>
+        <script>
+           var canvas1 = document.getElementById("canvasdeneme");
+           var cizim=canvas1.getContext("2d");
+           cizim.beginPath();
+           cizim.moveTo(0,0);
+           cizim.lineTo(25,50);
+           cizim.lineTo(400,500);
+           cizim.lineTo(8,45);
+           cizim.lineTo(8,550);
+           cizim.lineTo(400,300);
+           cizim.moveTo(400,0);
+           cizim.lineTo(400,300)
+           cizim.stroke();
+        </script>
+    </body>
+</html>
