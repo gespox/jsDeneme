@@ -1,0 +1,2 @@
+# jsDeneme
+JavaScript ornekleri
